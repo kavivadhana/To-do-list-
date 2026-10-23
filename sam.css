@@ -1,0 +1,74 @@
+body{
+    background-image: url("backgroundbrown.png");
+   background-position: center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    margin:0px;
+    height:100vh;
+    overflow:hidden;
+}
+.container1{
+    background-color:#efe4d8;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px;
+    margin:20px;
+    width:620px;
+    border-radius:5px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+   
+   
+}
+.container2{
+    background-color:#efe4d8;
+    width:650px;
+    height:400px;
+    margin:20px;
+    border-radius:20px;
+    box-shadow:0px 4px 15px  rgba(0,0,0,0.15);
+    
+}
+button{
+    background-color:#71442c;
+    border:none;
+    padding:18px;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    transition:0.3s ease;
+    border-radius:4px;
+   
+}
+button:hover{
+    background-color:#894822;
+    transform:scale(1.05);
+}
+input{
+    flex:1;
+    padding:18px 25px;
+    border:none;
+    outline:none;
+    font-size:20px;
+     background-color: #f7efe7;
+     color:#5e4636;
+     transition:0.3s ease;
+}
+input:focus{
+    border: 1px solid rgb(201, 91, 81);
+    box-shadow: 0px 0px 15px rgba(155,109,83,0.5);
+    
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size:50px;
+}
+#todoList{
+    color:#7b4b2a;
+    font-size:28px;
+    padding:20px;
+    margin:10px;
+}
+
+    
